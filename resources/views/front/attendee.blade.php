@@ -34,12 +34,13 @@
         <section class="ttm-row broken-section ttm-bg ttm-bgimage-yes ttm-bgcolor-grey clearfix">
             <div class="container">
 
-                @include('layout.alert')
+
 
                 @if (isset($registration))
                     <br><br>
                     <div class="row">
                         <div class="col-lg-12">
+                            @include('layout.alert')
                             <div class="ttm-team-member-single-content-wrapper">
                                 <div class="row">
                                     <div class="col-md-5">
@@ -74,6 +75,7 @@
                         <div class="col-lg-2">
                         </div>
                         <div class="col-lg-8">
+
                             <br><br>
                             <div class="col-bg-img-five ttm-col-bgimage-yes ttm-bg ttm-bgcolor-white box-shadow spacing-5">
                                 <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
@@ -88,6 +90,7 @@
                                     <form id="request_form" class="request_form wrap-form clearfix" method="post"
                                         action="{{ route('store.attendee') }}">
                                         @csrf
+                                        @include('layout.alert')
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <label>
