@@ -45,8 +45,7 @@
                                     <div class="col-md-5">
                                         <!--featured-thumbnail-->
                                         <div class="featured-thumbnail pr-25 res-991-pr-0 ">
-                                            <img class="img-fluid res-767-mb-40"
-                                                src="data:image/png;base64, {!! base64_encode($qrcode) !!}" alt="QR Code">
+                                            {!! $qrcode !!}
                                         </div><!--featured-thumbnail end-->
                                     </div>
                                     <div class="col-md-7 d-flex align-items-center">

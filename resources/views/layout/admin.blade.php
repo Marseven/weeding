@@ -17,17 +17,14 @@
     <meta property="og:url" content="https://mebodorichard.com" />
     <meta property="og:site_name" content="{{ env('APP_NAME') }}" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+
+    <link rel="shortcut icon" href="{{ asset('front/images/favicon.png') }}" />
 
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
     <!--end::Fonts-->
 
     <!--begin::Vendor Stylesheets(used for this page only)-->
-    <link href="{{ asset('admin/plugins/custom/fullcalendar/fullcalendar.bundle.css') }}" rel="stylesheet"
-        type="text/css" />
-    <link href="{{ asset('admin/plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet"
-        type="text/css" />
     @stack('styles')
     <!--end::Vendor Stylesheets-->
 
@@ -91,8 +88,9 @@
                         <!--end::Sidebar mobile toggle-->
                         <!--begin::Logo-->
                         <a href="../dist/index.html" class="app-sidebar-logo">
-                            <img alt="Logo" src="assets/media/logos/default.svg" class="h-30px theme-light-show" />
-                            <img alt="Logo" src="assets/media/logos/default-dark.svg"
+                            <img alt="Logo" src="{{ asset('front/images/logo-img.png') }}"
+                                class="h-30px theme-light-show" />
+                            <img alt="Logo" src="{{ asset('front/images/logo-white.png') }}"
                                 class="h-30px theme-dark-show" />
                         </a>
                         <!--end::Logo-->
@@ -121,7 +119,7 @@
                             <div class="cursor-pointer symbol symbol-30px symbol-lg-40px"
                                 data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent"
                                 data-kt-menu-placement="bottom-end">
-                                <img src="assets/media/avatars/300-2.jpg" alt="user" />
+                                <img src="{{ asset('front/images/favicon.png') }}" alt="user" />
                             </div>
                             <!--begin::User account menu-->
                             <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px"
@@ -131,17 +129,18 @@
                                     <div class="menu-content d-flex align-items-center px-3">
                                         <!--begin::Avatar-->
                                         <div class="symbol symbol-50px me-5">
-                                            <img alt="Logo" src="assets/media/avatars/300-2.jpg" />
+                                            <img alt="Logo" src="{{ asset('front/images/favicon.png') }}" />
                                         </div>
                                         <!--end::Avatar-->
                                         <!--begin::Username-->
                                         <div class="d-flex flex-column">
-                                            <div class="fw-bold d-flex align-items-center fs-5">Jane Cooper
+                                            <div class="fw-bold d-flex align-items-center fs-5">
+                                                {{ $user['last_name'] }}
                                                 <span
-                                                    class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Pro</span>
+                                                    class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">{{ $user->roles->first()['name'] }}</span>
                                             </div>
                                             <a href="#"
-                                                class="fw-semibold text-muted text-hover-primary fs-7">jane@kt.com</a>
+                                                class="fw-semibold text-muted text-hover-primary fs-7">{{ $user['phone'] }}</a>
                                         </div>
                                         <!--end::Username-->
                                     </div>
@@ -315,9 +314,9 @@
                             <!--end:Menu item-->
 
                             <!--begin:Menu item-->
-                            <a class="menu-item" href="{{ route('dashboard') }}">
+                            <a class="menu-item" href="{{ route('admin.registration') }}">
                                 <div
-                                    class="menu-item  @php if(strpos(Request::url(), 'admin/dashboard') !== false ){ echo "here show";} @endphp">
+                                    class="menu-item  @php if(strpos(Request::url(), 'admin/registration') !== false ){ echo "here show";} @endphp">
                                     <!--begin:Menu link-->
                                     <span class="menu-link">
                                         <span class="menu-icon">
@@ -345,7 +344,32 @@
                 </div>
                 <!--end::Sidebar-->
 
-                @yield('content')
+                <!--begin::Main-->
+                <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+
+
+                    @yield('content')
+
+                    <!--begin::Footer-->
+                    <div id="kt_app_footer"
+                        class="app-footer align-items-center justify-content-center justify-content-md-between flex-column flex-md-row py-3">
+                        <!--begin::Copyright-->
+                        <div class="text-dark order-2 order-md-1">
+                            <span class="text-muted fw-semibold me-1">{{ date('Y') }} &copy;</span>
+                            <a href="https://mebodorichard.com" target="_blank"
+                                class="text-gray-800 text-hover-primary">Codeur X</a>
+                        </div>
+                        <!--end::Copyright-->
+                        <!--begin::Menu-->
+                        <ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
+
+                        </ul>
+                        <!--end::Menu-->
+                    </div>
+                    <!--end::Footer-->
+                </div>
+                <!--end:::Main-->
+
 
             </div>
             <!--end::Wrapper-->
@@ -375,7 +399,7 @@
     <!--end::Global Javascript Bundle-->
 
     <!--begin::Vendors Javascript(used for this page only)-->
-    <script src="{{ asset('/plugins/custom/fullcalendar/fullcalendar.bundle.js') }}"></script>
+
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
@@ -387,12 +411,12 @@
     <script src="https://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
-    <script src="{{ asset('/plugins/custom/datatables/datatables.bundle.js') }}"></script>
     <!--end::Vendors Javascript-->
 
     <!--begin::Custom Javascript(used for this page only)-->
     <script src="{{ asset('admin/js/widgets.bundle.js') }}"></script>
     <script src="{{ asset('admin/js/custom/widgets.js') }}"></script>
+
     @stack('scripts')
     <!--end::Custom Javascript-->
 

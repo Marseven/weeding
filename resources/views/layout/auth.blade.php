@@ -66,8 +66,9 @@
                     <!--begin::Header-->
                     <div class="d-flex flex-row-fluid flex-column text-center p-5 p-lg-10 pt-lg-20">
                         <!--begin::Logo-->
-                        <a href="../dist/index.html" class="py-2 py-lg-20">
-                            <img alt="Logo" src="assets/media/logos/mail.svg" class="h-40px h-lg-50px" />
+                        <a href="{{ route('home') }}" class="py-2 py-lg-20">
+                            <img alt="Logo" src="{{ asset('front/images/logo-white.png') }}"
+                                class="h-40px h-lg-50px" />
                         </a>
                         <!--end::Logo-->
                         <!--begin::Title-->
@@ -81,7 +82,7 @@
                     <!--end::Header-->
                     <!--begin::Illustration-->
                     <div class="d-none d-lg-block d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px"
-                        style="background-image: url(assets/media/illustrations/sketchy-1/17.png)"></div>
+                        style="background-image: url({{ asset('admin/media/illustrations/sketchy-1/17.png') }})"></div>
                     <!--end::Illustration-->
                 </div>
                 <!--end::Wrapper-->

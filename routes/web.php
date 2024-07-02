@@ -90,10 +90,9 @@ Route::middleware('auth')->group(function () {
         Route::post('profil/password/{user}', [UserController::class, 'updatePassword'])->name('admin.profil.password');
 
         //registration
-        Route::get('/registration/{event}', [RegistrationController::class, 'index'])->name('admin.registration');
+        Route::get('/registration', [RegistrationController::class, 'index'])->name('admin.registration');
         Route::post('/get/registration', [RegistrationController::class, 'ajaxItem'])->name('get-registration');
         Route::post('/update/registration/{registration}', [RegistrationController::class, 'update'])->name('update.registration');
-        Route::get('/ajax/compagnie/registrations/{event}', [RegistrationController::class, 'ajaxListCompagnie'])->name('list-compagnie-registration');
-        Route::get('/ajax/attendee/registrations/{event}', [RegistrationController::class, 'ajaxListAttendee'])->name('list-attendee-registration');
+        Route::get('/export/registration', [RegistrationController::class, 'export'])->name('export.registration');
     });
 });

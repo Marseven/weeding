@@ -66,11 +66,12 @@ class WelcomeController extends Controller
 
             $url = url('attendee/' . $attendee->id);
 
-            $qrcode = QrCode::size(300)->format('png')->merge('/public/front/images/logo-img.png', .4)->generate($url);
+            //$qrcode = QrCode::size(300)->format('png')->merge('/public/front/images/logo-img.png', .4)->generate($url);
+            $qrcode = QrCode::size(300)->generate($url);
 
             if ($registration->save()) {
                 $registration->load(['attendee']);
-                return view('front.attendee', compact('registration', 'qrcode'))->with('success', 'Votre inscription a bien été enregistrée. <a href="' . url($registration->qr_code) . '" target="_blank">Télécharger votre Qr Code ici</a>.');
+                return view('front.attendee', compact('registration', 'qrcode'))->with('success', 'Votre inscription a bien été enregistrée. <a href="#" target="_blank">Télécharger votre Qr Code ici</a>.');
             }
         }
 
