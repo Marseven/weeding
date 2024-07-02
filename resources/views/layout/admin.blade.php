@@ -235,7 +235,7 @@
 
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-5">
-                                    <a href="{{ route('logout') }}" class="menu-link px-5">Déconnexion</a>
+                                    <a href="{{ url('log-out') }}" class="menu-link px-5">Déconnexion</a>
                                 </div>
                                 <!--end::Menu item-->
                             </div>
