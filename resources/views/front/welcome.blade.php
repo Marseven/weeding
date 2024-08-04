@@ -14,7 +14,7 @@
                         data-xy="x:l,l,c,c;xo:26px,26px,0,0;y:m;yo:-67px,-67px,-140px,-70px;"
                         data-text="w:normal;s:50,50,70,53;l:80,80,100,80;fw:700;a:center;" data-frame_0="sX:0.9;sY:0.9;"
                         data-frame_1="e:power2.inOut;st:200;sp:800;sR:200;" data-frame_999="o:0;st:w;sR:8000;"
-                        style="z-index:10;font-family:Cormorant;">Denise Massing
+                        style="z-index:10;font-family:Cormorant;"> &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Denise
                     </rs-layer>
 
                     <rs-layer id="slider-4-slide-8-layer-1" data-type="text" data-color="#000000" data-rsp_ch="on"
@@ -57,14 +57,14 @@
                         data-text="w:normal;s:18,18,18,17;l:26,26,25,25;fw:500;a:center;" data-frame_0="sX:0.9;sY:0.9;"
                         data-frame_1="e:power2.inOut;st:630;sp:500;sR:630;" data-frame_999="o:0;st:w;sR:7870;"
                         style="z-index:15;font-family:Hind;text-transform:uppercase;"><span
-                            class="ttm-textcolor-skincolor">15.09.2024</span>
+                            class="ttm-textcolor-skincolor">21.09.2024</span>
                     </rs-layer>
 
                     <rs-layer id="slider-4-slide-8-layer-11" data-type="text" data-color="#272727" data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:23px,23px,0,0;y:m;yo:40px,40px,-27px,16px;"
                         data-text="w:normal;s:50,50,70,53;l:80,80,100,80;fw:700;a:center;" data-frame_0="sX:0.9;sY:0.9;"
                         data-frame_1="e:power2.inOut;st:460;sp:800;sR:460;" data-frame_999="o:0;st:w;sR:7740;"
-                        style="z-index:14;font-family:Cormorant;">Guy Massing
+                        style="z-index:14;font-family:Cormorant;"> &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Guy
                     </rs-layer>
 
                     <rs-layer id="slider-4-slide-8-layer-13" data-type="shape" data-rsp_ch="on"
@@ -110,14 +110,15 @@
                             <!--section title-->
                             <div class="section-title">
                                 <div class="title-header">
-                                    <h5>Blanc & Argent</h5>
+                                    <h5>Blanc & Gris Argenté</h5>
                                     <h2 class="title">Nous vous souhaitons la bienvenue dans notre cérémonie de mariage
                                     </h2>
                                 </div>
                                 <div class="title-desc">
-                                    <p>Tu as toujours été le gardien idéal pour nous. Ta présence sera plus qu'attendue en
-                                        cette occasion sainte de notre vie. Bénis notre union sacrée afin que notre voyage
-                                        ne soit que bonheur...</p>
+                                    <p>C’est un grand jour pour nous ! Le jour de notre union. Nous comptons sur ta présence
+                                        pour rendre ce jour inoubliable. Sur ce site tu retrouveras toutes les informations
+                                        concernant notre cérémonie de mariage. Merci de t’enregistrer sur le formulaire de
+                                        présence pour confirmer ta présence à cette cérémonie.</p>
                                 </div>
                             </div><!--section title end-->
                             <div class="row">
@@ -135,7 +136,7 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-desc">
-                                                <p>The honor of your presence is must requested on 28th Sept,2024!
+                                                <p>Ce serait un honneur de vous compter parmis nous ce 21 septembre 2024
                                                 </p>
                                             </div>
                                         </div>
@@ -155,7 +156,7 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-desc">
-                                                <p>The Celebration of our togetherne-ss is held on 30th Sept,2020!
+                                                <p>Venez passer une soirée inoubliable avec nous pour célébrer ce moment
                                                 </p>
                                             </div>
                                         </div>
@@ -187,12 +188,11 @@
                                 <div class="featured-title">
                                     <h5><a href="team-details.html">Denise</a></h5>
                                 </div>
-                                <p class="category">We, Ketty Dustin & Margaret request the honor of your presence
-                                    at the marriage of beloved daughter, Emma</p>
+                                <p class="category">c’est un jour important pour moi, ce sera avec plaisir que je la
+                                    célébrerai avec vous .</p>
                                 <div class="ttm-social-links-wrapper">
                                     <ul class="social-icons list-inline">
-                                        <li><a href="https://www.facebook.com/preyantechnosys19" target="_blank"><i
-                                                    class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -205,12 +205,12 @@
                             <h2 class="ttm-groom-name">Denise</h2>
                             <h5 class="ttm-invitation-separator">et</h5>
                             <h2 class="ttm-groom-name_1">Guy</h2>
-                            <p class="ttm-card-date">15. Septembre 2024</p>
-                            <p>À 10 heure du matin
+                            <p class="ttm-card-date">21. Septembre 2024</p>
+                            <p>À 12 heure
                             </p>
                             <p class="ttm-location-place"><a class="tm_element-link"
-                                    href="https://goo.gl/maps/pxwL6DYUwz2NCL2j6" title="" target="_blank">Mairie de
-                                    Libreville</a></p>
+                                    href="https://goo.gl/maps/pxwL6DYUwz2NCL2j6" title="" target="_blank">Hôtel de
+                                    Ville de Libreville</a></p>
                         </div><!--invitationcard-box-title end-->
                     </div>
                     <div class="col-lg-4 col-md-12">
@@ -224,12 +224,11 @@
                                 <div class="featured-title">
                                     <h5><a href="team-details.html">Guy</a></h5>
                                 </div>
-                                <p class="category">We, Kinsley Button & Beckham request the honor of your presence
-                                    at the marriage of beloved son, Roko</p>
+                                <p class="category">J’aurai plaisir à célébrer l’amour que j’ai pour ma dulcinée en votre
+                                    présence. Merci de me faire l’honneur de votre présence.</p>
                                 <div class="ttm-social-links-wrapper">
                                     <ul class="social-icons list-inline">
-                                        <li><a href="https://www.facebook.com/preyantechnosys19" target="_blank"><i
-                                                    class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -359,14 +358,13 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h5>La Dot</h5>
+                                    <h5>Le Mariage Civil</h5>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Friday, 30 Oct, 2020</p>
-                                    <p>12:00 PM – 4:30 PM</p>
-                                    <p>Los Angeles NY45</p>
-                                    <p>16 West 25th Str Usa</p>
-                                    <p>+3 987-654-3210</p>
+                                    <p>Samedi, 21 Sept 2024</p>
+                                    <p>12:00 – 13:00</p>
+                                    <p>Hôtel de ville de Libreville</p>
+                                    <p>13:00 Tour de ville et photo</p>
                                 </div>
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
@@ -384,14 +382,12 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h5>La Cérémonie</h5>
+                                    <h5>Bénédiction Nuptiale & Cocktail</h5>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Saturday, 16 Oct, 2020</p>
-                                    <p>12:00 PM – 4:30 PM</p>
-                                    <p>Los Angeles NY45</p>
-                                    <p>16 West 25th Str Usa</p>
-                                    <p>+3 987-654-3210</p>
+                                    <p>Samedi, 21 Sept 2024</p>
+                                    <p>14:00 – 16:00</p>
+                                    <p>La Villa Tarri, À la descente de l’Union</p>
                                 </div>
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
@@ -412,17 +408,16 @@
                                     <h5>La soirée</h5>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>The DJ Party</p>
-                                    <p>12:00 PM – 4:30 PM</p>
-                                    <p>Los Angeles NY45</p>
-                                    <p>16 West 25th Str Usa</p>
-                                    <p>+3 987-654-3210</p>
+                                    <p>Samedi, 21 Sept 2024</p>
+                                    <p>17:00 – 23:00</p>
+                                    <p>Hôtel Boulevard, Acaé</p>
                                 </div>
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
                                 href="https://goo.gl/maps/pxwL6DYUwz2NCL2j6">Voir le lieu</a>
                         </div><!--featured-icon-box end-->
                     </div>
+
                 </div>
             </div>
         </section>

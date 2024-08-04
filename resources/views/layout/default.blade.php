@@ -170,7 +170,7 @@
                                                     <h5>Adresse</h5>
                                                 </div>
                                                 <div class="featured-desc">
-                                                    <p>Angondjé, Akanda, GABON</p>
+                                                    <p>Libreville, GABON</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -182,7 +182,7 @@
                                                     <h5>Téléphone</h5>
                                                 </div>
                                                 <div class="featured-desc">
-                                                    <p>+241 74 02 03 04 ou +241 62 02 03 04</p>
+                                                    <p>+241 77 97 73 98</p>
                                                 </div>
                                             </div>
                                         </div>
