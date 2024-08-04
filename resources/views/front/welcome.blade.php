@@ -23,7 +23,7 @@
                         data-frame_0="sX:0.9;sY:0.9;" data-frame_1="e:power2.inOut;st:770;sp:500;sR:770;"
                         data-frame_999="o:0;st:w;sR:7730;"
                         style="z-index:16;font-family:Hind;text-transform:uppercase;"><span
-                            class="ttm-textcolor-skincolor">À 10 heure du matin<br /> Mairie de Libreville
+                            class="ttm-textcolor-skincolor">À 12 heure <br /> Hôtel de ville
                             <br /> Libreville, Gabon</span>
                     </rs-layer>
 
