@@ -152,8 +152,9 @@
                                     </h2>
                                 </div>
                                 <div class="title-desc">
-                                    <p>C’est un grand jour pour nous ! Le jour de notre union. Nous comptons sur ta présence
-                                        pour rendre ce jour inoubliable. Sur ce site tu retrouveras toutes les informations
+                                    <p>C’est un grand jour pour nous, le jour de notre union.. Nous comptons sur votre
+                                        présence
+                                        pour rendre ce jour inoubliable. Sur ce site tu trouverez toutes les informations
                                         concernant notre cérémonie de mariage. Merci de t’enregistrer sur le formulaire de
                                         présence pour confirmer ta présence à cette cérémonie.</p>
                                 </div>
@@ -293,6 +294,8 @@
                                     <div class="title-header">
                                         <h5>Invitations</h5>
                                         <h2 class="title">On vous attends avec impatience !</h2>
+                                        <p>⚠️ il est important de s’enregistrer sur le formulaire pour confirmer votre
+                                            présence et entrer en possession de votre billet électronique.</p>
                                     </div><!--section title end-->
                                 </div>
                                 <form id="request_form" class="request_form wrap-form clearfix" method="post"
@@ -403,7 +406,7 @@
                                 </div>
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
-                                href="https://goo.gl/maps/pxwL6DYUwz2NCL2j6">Voir le lieu</a>
+                                target="_blank" href="https://maps.app.goo.gl/jBSJuRJEJTQ24feH6">Voir le lieu</a>
                         </div><!--featured-icon-box end-->
                     </div>
                     <div class="col-md-4">
@@ -426,7 +429,7 @@
                                 </div>
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
-                                href="https://goo.gl/maps/pxwL6DYUwz2NCL2j6">Voir le lieu</a>
+                                target="_blank" href="https://maps.app.goo.gl/BZRuGCm3qzUBfxFq5">Voir le lieu</a>
                         </div><!--featured-icon-box end-->
                     </div>
                     <div class="col-md-4">
@@ -449,7 +452,7 @@
                                 </div>
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
-                                href="https://goo.gl/maps/pxwL6DYUwz2NCL2j6">Voir le lieu</a>
+                                target="_blank" href="https://maps.app.goo.gl/9XcUyPQxPfpA5nSW8">Voir le lieu</a>
                         </div><!--featured-icon-box end-->
                     </div>
 
