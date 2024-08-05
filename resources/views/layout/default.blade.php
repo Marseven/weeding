@@ -89,6 +89,28 @@
             border-color: #4CA6CF;
             color: #0C5460;
         }
+
+        .mobile-search,
+        .menubar {
+            display: none;
+        }
+
+        @media (max-width: 1024px) {
+            .mobile-search {
+                display: block;
+            }
+
+            .menubar {
+                padding-top: 30px;
+                display: block;
+            }
+
+            .menubar-box {
+                font-size: 1.7em;
+                font-weight: 800;
+                color: #272727;
+            }
+        }
     </style>
 
     @stack('styles')
@@ -117,14 +139,20 @@
                             </div><!--site-branding end-->
                             <div class="btn-show-menu-mobile menubar menubar--squeeze">
                                 <span class="menubar-box">
-                                    <span class="menubar-inner"></span>
+                                    <i class="ti ti-printer"></i>
                                 </span>
                             </div>
                             <!--menu-->
                             <nav class="main-menu menu-mobile ml-auto" id="menu">
-                                <ul class="menu">
-
-                                </ul>
+                                <div class="header_search_content mobile-search">
+                                    <form id="searchbox" method="post" action="{{ url('search') }}">
+                                        @csrf
+                                        <input class="search_query" type="text" id="search_query_top" name="s"
+                                            placeholder="Téléphone ou Email" value="">
+                                        <button type="submit" class="btn close-search"><i
+                                                class="ti ti-printer"></i></button>
+                                    </form>
+                                </div>
                             </nav>
                             <div class="header_extra d-flex flex-row align-items-center justify-content-end ">
                                 <div class="header_search">
