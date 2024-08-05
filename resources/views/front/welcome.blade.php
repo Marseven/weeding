@@ -225,8 +225,8 @@
                                 <div class="featured-title">
                                     <h5><a href="team-details.html">Denise</a></h5>
                                 </div>
-                                <p class="category">c’est un jour important pour moi, ce sera avec plaisir que je la
-                                    célébrerai avec vous .</p>
+                                <p class="category">c’est un jour important pour moi, ce sera avec plaisir que je le
+                                    célébrerais avec vous .</p>
                                 <div class="ttm-social-links-wrapper">
                                     <ul class="social-icons list-inline">
                                         <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
