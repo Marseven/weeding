@@ -95,7 +95,7 @@ class WelcomeController extends Controller
         if ($attendee) {
             $url = url('attendee/' . $attendee->id);
 
-            $qrcode = QrCode::size(300)->format('png')->merge('/public/front/images/logo-img.png', .4)->generate($url);
+            $qrcode = QrCode::size(300)->generate($url);
 
             $registration = Registration::with('attendee')->where('attendee_id', $attendee->id)->get()->first();
             return view('front.attendee', compact('registration', 'qrcode'));
