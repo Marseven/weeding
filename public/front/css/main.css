@@ -1834,7 +1834,7 @@ ul.footer-nav-menu li:not(:last-child):after {
 /* Page-Title-Row
 /*---------------------------------------------------------------*/
 .ttm-page-title-row {
-    background: url(../images/pagetitle-bg.jpg);
+    background: url(../images/cover.png);
     width: 100%;
     background-size: cover;
     background-position: center;

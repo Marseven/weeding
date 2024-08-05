@@ -1,5 +1,29 @@
 @extends('layout.default')
 
+@push('styles')
+    <style>
+        .mobile-name {
+            display: none;
+        }
+
+        .desktop-name {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-name {
+                display: block;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .desktop-name {
+                display: block;
+            }
+        }
+    </style>
+@endpush
+
 @section('content')
     <!--START REVOLUTION SLIDER 6.0.1-->
     <rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery">
@@ -7,14 +31,21 @@
             <rs-slides>
                 <rs-slide data-key="rs-8" data-title="Slide" data-anim="ei:d;eo:d;s:d;r:0;t:blurlight;sl:d;">
 
-                    <img src="{{ asset('front/images/slides/slider-mainbg-05.jpg') }}" title="slider-main-img05"
+                    <img src="{{ asset('front/images/slides/slider-mainbg-05.png') }}" title="slider-main-img05"
                         width="1920" height="845" class="rev-slidebg" data-no-retina>
 
                     <rs-layer id="slider-4-slide-8-layer-0" data-type="text" data-color="#272727" data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:26px,26px,0,0;y:m;yo:-67px,-67px,-140px,-70px;"
                         data-text="w:normal;s:50,50,70,53;l:80,80,100,80;fw:700;a:center;" data-frame_0="sX:0.9;sY:0.9;"
                         data-frame_1="e:power2.inOut;st:200;sp:800;sR:200;" data-frame_999="o:0;st:w;sR:8000;"
-                        style="z-index:10;font-family:Cormorant;"> &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Denise
+                        style="z-index:10;font-family:Cormorant;">
+                        <div class="mobile-name">
+                            Denise
+                        </div>
+                        <div class="desktop-name">
+                            &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Denise
+                        </div>
+
                     </rs-layer>
 
                     <rs-layer id="slider-4-slide-8-layer-1" data-type="text" data-color="#000000" data-rsp_ch="on"
@@ -64,7 +95,13 @@
                         data-xy="x:l,l,c,c;xo:23px,23px,0,0;y:m;yo:40px,40px,-27px,16px;"
                         data-text="w:normal;s:50,50,70,53;l:80,80,100,80;fw:700;a:center;" data-frame_0="sX:0.9;sY:0.9;"
                         data-frame_1="e:power2.inOut;st:460;sp:800;sR:460;" data-frame_999="o:0;st:w;sR:7740;"
-                        style="z-index:14;font-family:Cormorant;"> &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Guy
+                        style="z-index:14;font-family:Cormorant;">
+                        <div class="mobile-name">
+                            Guy
+                        </div>
+                        <div class="desktop-name">
+                            &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;Guy
+                        </div>
                     </rs-layer>
 
                     <rs-layer id="slider-4-slide-8-layer-13" data-type="shape" data-rsp_ch="on"
@@ -100,7 +137,7 @@
                         <div class="d-inline-block border p-3">
                             <!--ttm_single_image-wrapper-->
                             <div class="ttm_single_image-wrapper">
-                                <img class="img-fluid" src="{{ asset('front/images/single-img-03.jpg') }}"
+                                <img class="img-fluid" src="{{ asset('front/images/couple2.png') }}"
                                     title="single-img-three" alt="single-img-three">
                             </div><!--ttm_single_image-wrapper end-->
                         </div>
@@ -181,8 +218,7 @@
                         <!--featured-imagebox-team-->
                         <div class="featured-imagebox featured-imagebox-team style3">
                             <div class="featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('front/images/team-member/team-img-01.png') }}"
-                                    alt="image">
+                                <img class="img-fluid" src="{{ asset('front/images/denise.png') }}" alt="image">
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
@@ -217,8 +253,7 @@
                         <!--featured-imagebox-team-->
                         <div class="featured-imagebox featured-imagebox-team style3">
                             <div class="featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('front/images/team-member/team-img-02.png') }}"
-                                    alt="image">
+                                <img class="img-fluid" src="{{ asset('front/images/guy.png') }}" alt="image">
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
