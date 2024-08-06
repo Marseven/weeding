@@ -31,8 +31,8 @@
             <rs-slides>
                 <rs-slide data-key="rs-8" data-title="Slide" data-anim="ei:d;eo:d;s:d;r:0;t:blurlight;sl:d;">
 
-                    <img src="{{ asset('front/images/slides/slider-mainbg-05.png') }}" title="slider-main-img05"
-                        width="1920" height="845" class="rev-slidebg" data-no-retina>
+                    <img src="{{ asset('front/images/slider-mainbg.png') }}" title="slider-main-img05" width="1920"
+                        height="845" class="rev-slidebg" data-no-retina>
 
                     <rs-layer id="slider-4-slide-8-layer-0" data-type="text" data-color="#272727" data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:26px,26px,0,0;y:m;yo:-67px,-67px,-140px,-70px;"
@@ -238,7 +238,7 @@
                     <div class="col-lg-4 col-md-12">
                         <!--invitationcard-box-title-->
                         <div class="ttm-invitationcard-box style1 text-center">
-                            <p class="ttm-top-heading">Retenez la date</p>
+                            <p class="ttm-top-heading" style="color:#272727">Retenez la date</p>
                             <h2 class="ttm-groom-name">Denise</h2>
                             <h5 class="ttm-invitation-separator">et</h5>
                             <h2 class="ttm-groom-name_1">Guy</h2>

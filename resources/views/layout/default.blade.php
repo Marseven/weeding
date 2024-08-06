@@ -103,12 +103,24 @@
             .menubar {
                 padding-top: 30px;
                 display: block;
+                width: 25%;
             }
 
             .menubar-box {
-                font-size: 1.7em;
-                font-weight: 800;
-                color: #272727;
+                font-size: 11px;
+                height: 30px;
+                width: 100%;
+                line-height: 35px;
+                border-radius: 3px;
+                transition: all .2s ease-in-out;
+                -moz-transition: all .2s ease-in-out;
+                -webkit-transition: all .2s ease-in-out;
+                -o-transition: all .2s ease-in-out;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                color: #fff;
+                background-color: #797979;
             }
         }
     </style>
@@ -138,8 +150,8 @@
                                 </a>
                             </div><!--site-branding end-->
                             <div class="btn-show-menu-mobile menubar menubar--squeeze">
-                                <span class="menubar-box">
-                                    <i class="ti ti-printer"></i>
+                                <span class="menubar-box btn-default">
+                                    <span class=" search_btn">Voir mon Billet</span>
                                 </span>
                             </div>
                             <!--menu-->
