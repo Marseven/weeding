@@ -103,6 +103,6 @@ class RegistrationController extends Controller
 
     public function export()
     {
-        return Excel::download(new RegistrationExport(), 'Liste_invites_deniseguy.xlsx');
+        return Excel::download(new RegistrationExport(), 'Liste_invites_deniseguy_' . now() . '.xlsx');
     }
 }

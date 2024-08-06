@@ -17,6 +17,7 @@ class RegistrationExport implements FromView
     public function view(): View
     {
         $registrations = Registration::with('attendee')->where('deleted', NULL)->get();
+
         return view('export.registration', [
             'registrations' => $registrations,
         ]);

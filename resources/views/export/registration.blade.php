@@ -25,6 +25,5 @@
                 <td>{{ $registration->created_at }}</td>
             </tr>
         @endforeach
-        </tr>
     </tbody>
 </table>
