@@ -178,10 +178,10 @@
     background-position: center;
 }
 .bg-img6 {
-    background-image: url(../images/bg-image/row-bgimage-06.png);
+    background-image: url(../images/bg6.png);
     background-size: auto;
-    background-repeat: no-repeat;
-    background-position: right bottom;
+    /* background-repeat: no-repeat;
+    background-position: right bottom; */
 }
 .bg-img7 {
     background-image: url(../images/bg-image/row-bgimage-07.png);
