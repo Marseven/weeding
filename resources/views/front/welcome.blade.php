@@ -435,7 +435,7 @@
                                 <div class="featured-desc">
                                     <p>Samedi, 21 Sept 2024</p>
                                     <p>14:00 – 17:00</p>
-                                    <p>La Villa Tarri, À la descente de l’Union</p>
+                                    <p>La Villa Tari, À la descente de l’Union</p>
                                 </div>
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
@@ -463,7 +463,7 @@
                                 </div>
                                 <div class="featured-desc">
                                     <p>Samedi, 21 Sept 2024</p>
-                                    <p>17:00 – 23:00</p>
+                                    <p>À partir de 17:00</p>
                                     <p>Hôtel Boulevard, Acaé</p>
                                 </div>
                             </div>
