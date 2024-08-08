@@ -14,7 +14,7 @@
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ env('APP_NAME') }}" />
-    <meta property="og:url" content="https://mebodorichard.com" />
+    <meta property="og:url" content="https://deniseguymassing.online/" />
     <meta property="og:site_name" content="{{ env('APP_NAME') }}" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
