@@ -409,6 +409,11 @@
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
                                 target="_blank" href="https://maps.app.goo.gl/jBSJuRJEJTQ24feH6">Voir le lieu</a>
+                            <div class="featured-imagebox featured-imagebox-blog">
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('front/images/3.png') }}" alt="image">
+                                </div>
+                            </div>
                         </div><!--featured-icon-box end-->
                     </div>
                     <div class="col-md-4">
@@ -432,6 +437,11 @@
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
                                 target="_blank" href="https://maps.app.goo.gl/BZRuGCm3qzUBfxFq5">Voir le lieu</a>
+                            <div class="featured-imagebox featured-imagebox-blog">
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('front/images/1.png') }}" alt="image">
+                                </div>
+                            </div>
                         </div><!--featured-icon-box end-->
                     </div>
                     <div class="col-md-4">
@@ -455,6 +465,11 @@
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor ttm-icon-btn-right"
                                 target="_blank" href="https://maps.app.goo.gl/9XcUyPQxPfpA5nSW8">Voir le lieu</a>
+                            <div class="featured-imagebox featured-imagebox-blog">
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('front/images/2.png') }}" alt="image">
+                                </div>
+                            </div>
                         </div><!--featured-icon-box end-->
                     </div>
 
@@ -630,10 +645,8 @@
                         <!--featured-imagebox-blog-->
                         <div class="featured-imagebox featured-imagebox-blog">
                             <div class="featured-thumbnail">
-
                                 <img class="img-fluid" src="{{ asset('front/images/blog/16.png') }}" alt="image">
                             </div>
-
                         </div><!--featured-imagebox-blog end-->
                     </div>
                     <div class="ttm-box-col-wrapper col-lg-4">
