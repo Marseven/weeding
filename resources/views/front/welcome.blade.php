@@ -158,7 +158,7 @@
                                         pour rendre ce jour inoubliable. Sur ce site vous trouverez toutes les informations
                                         concernant notre cérémonie de mariage. Merci de vous enregistrer sur le formulaire
                                         de
-                                        présence pour confirmer ta présence à cette cérémonie.</p>
+                                        présence pour confirmer votre présence à cette cérémonie.</p>
                                 </div>
                             </div><!--section title end-->
                             <div class="row">
@@ -390,7 +390,8 @@
                 <div class="row mb_15">
                     <div class="col-md-4">
                         <!--featured-icon-box-->
-                        <div class="featured-icon-box icon-align-top-content text-center style5">
+                        <div class="featured-icon-box bg-img20 icon-align-top-content text-center style5">
+                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
                             <div class="featured-icon">
                                 <div
                                     class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-style-rounded ttm-icon_element-size-md">
@@ -419,7 +420,8 @@
                     </div>
                     <div class="col-md-4">
                         <!--featured-icon-box-->
-                        <div class="featured-icon-box icon-align-top-content text-center style5">
+                        <div class="featured-icon-box bg-img20 icon-align-top-content text-center style5">
+                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
                             <div class="featured-icon">
                                 <div
                                     class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-style-rounded ttm-icon_element-size-md">
@@ -432,7 +434,7 @@
                                 </div>
                                 <div class="featured-desc">
                                     <p>Samedi, 21 Sept 2024</p>
-                                    <p>14:00 – 16:00</p>
+                                    <p>14:00 – 17:00</p>
                                     <p>La Villa Tarri, À la descente de l’Union</p>
                                 </div>
                             </div>
@@ -447,7 +449,8 @@
                     </div>
                     <div class="col-md-4">
                         <!--featured-icon-box-->
-                        <div class="featured-icon-box icon-align-top-content text-center style5">
+                        <div class="featured-icon-box bg-img20 icon-align-top-content text-center style5">
+                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
                             <div class="featured-icon">
                                 <div
                                     class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-style-rounded ttm-icon_element-size-md">
@@ -478,6 +481,42 @@
             </div>
         </section>
         <!--event-section end-->
+
+        <section class="ttm-row broken-section bg-img14 bg-layer res-991-mt-45 pb-0 z-index_1 clearfix">
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <div class="col-lg-2 col-md-12">
+                        <!--col-bg-img-one-->
+                        <div class="col-bg-img-nine ttm-bg ttm-col-bgimage-yes ttm-bgcolor-white spacing-11">
+                            <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
+                                <div class="ttm-bg-layer-inner"></div>
+                            </div>
+                            <div class="layer-content">
+                                <!--section title-->
+                                <div class="section-title">
+                                    <div class="title-header">
+                                        <h5>Programme de La soirée</h5>
+                                        <h2 class="title">Hôtel Boulevard, Acaé</h2>
+                                    </div>
+                                </div><!--section title end-->
+                                <div class="mb-20 mt-45">
+                                    <div class="featured-desc text-left" style="color: #272727">
+                                        <p><strong>18h00</strong> Felicitations et Remise des
+                                            cadeaux (Urne Nuptiale)</p>
+                                        <p><strong>19h30</strong> Entrée des mariés dans la salle
+                                        </p>
+                                        <p><strong>20h00</strong> Dîner</p>
+                                        <p><strong>22h00</strong> Entrée de la pièce montée</p>
+                                        <p><strong>22h30</strong> Ouverture du bal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--col-bg-img-one end-->
+                    </div>
+                </div><!-- row end -->
+            </div>
+        </section>
 
         <!--blog-section-->
         <section class="ttm-row bolg-section clearfix">
