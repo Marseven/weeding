@@ -2237,7 +2237,7 @@ div:hover > .ttm-box-view-overlay:before {
     opacity: .35;
 }
 .featured-imagebox.featured-imagebox-team.style3:before {
-    transform: rotate(180deg);
+    /* /transform: rotate(180deg); */
     background: url(../images/flower02.png) no-repeat;
     height: 90px;
     width: 90px;
