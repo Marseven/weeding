@@ -390,15 +390,16 @@
                 <div class="row mb_15">
                     <div class="col-md-4">
                         <!--featured-icon-box-->
-                        <div class="featured-icon-box bg-img20 icon-align-top-content text-center style5">
-                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+                        <div
+                            class="featured-icon-box bg-img20 icon-align-top-content text-center style5 ttm-bgcolor-white ttm-bg ttm-bgimage-yes">
+                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer" style="opacity: .9;"></div>
                             <div class="featured-icon">
                                 <div
                                     class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-style-rounded ttm-icon_element-size-md">
                                     <i class="flaticon flaticon-love"></i>
                                 </div>
                             </div>
-                            <div class="featured-content">
+                            <div class="featured-content" style="z-index: 99;position: relative;">
                                 <div class="featured-title">
                                     <h5>Le Mariage Civil</h5>
                                 </div>
@@ -420,15 +421,16 @@
                     </div>
                     <div class="col-md-4">
                         <!--featured-icon-box-->
-                        <div class="featured-icon-box bg-img20 icon-align-top-content text-center style5">
-                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+                        <div
+                            class="featured-icon-box bg-img20 icon-align-top-content text-center style5 ttm-bgcolor-white ttm-bg ttm-bgimage-yes">
+                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer" style="opacity: .9;"></div>
                             <div class="featured-icon">
                                 <div
                                     class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-style-rounded ttm-icon_element-size-md">
                                     <i class="flaticon flaticon-wedding-rings"></i>
                                 </div>
                             </div>
-                            <div class="featured-content">
+                            <div class="featured-content" style="z-index: 99;position: relative;">
                                 <div class="featured-title">
                                     <h5>Bénédiction Nuptiale & Cocktail</h5>
                                 </div>
@@ -449,15 +451,16 @@
                     </div>
                     <div class="col-md-4">
                         <!--featured-icon-box-->
-                        <div class="featured-icon-box bg-img20 icon-align-top-content text-center style5">
-                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+                        <div
+                            class="featured-icon-box bg-img20 icon-align-top-content text-center style5 ttm-bgcolor-white ttm-bg ttm-bgimage-yes">
+                            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer" style="opacity: .9;"></div>
                             <div class="featured-icon">
                                 <div
                                     class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-style-rounded ttm-icon_element-size-md">
                                     <i class="flaticon flaticon-camera-1"></i>
                                 </div>
                             </div>
-                            <div class="featured-content">
+                            <div class="featured-content" style="z-index: 99;position: relative;">
                                 <div class="featured-title">
                                     <h5>La soirée</h5>
                                 </div>
