@@ -130,6 +130,7 @@
 
         <!--about-section-->
         <section class="ttm-row about-section bg-img6 ttm-bg ttm-bgimage-yes clearfix">
+            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
             <div class="container">
                 <!--row end-->
                 <div class="row">
