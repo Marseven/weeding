@@ -154,8 +154,9 @@
                                 <div class="title-desc">
                                     <p>C’est un grand jour pour nous, le jour de notre union.. Nous comptons sur votre
                                         présence
-                                        pour rendre ce jour inoubliable. Sur ce site tu trouverez toutes les informations
-                                        concernant notre cérémonie de mariage. Merci de t’enregistrer sur le formulaire de
+                                        pour rendre ce jour inoubliable. Sur ce site vous trouverez toutes les informations
+                                        concernant notre cérémonie de mariage. Merci de vous enregistrer sur le formulaire
+                                        de
                                         présence pour confirmer ta présence à cette cérémonie.</p>
                                 </div>
                             </div><!--section title end-->
@@ -229,7 +230,7 @@
                                     célébrerais avec vous .</p>
                                 <div class="ttm-social-links-wrapper">
                                     <ul class="social-icons list-inline">
-                                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        {{-- <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li> --}}
                                     </ul>
                                 </div>
                             </div>
@@ -264,7 +265,7 @@
                                     présence. Merci de me faire l’honneur de votre présence.</p>
                                 <div class="ttm-social-links-wrapper">
                                     <ul class="social-icons list-inline">
-                                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        {{-- <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li> --}}
                                     </ul>
                                 </div>
                             </div>
@@ -278,7 +279,8 @@
 
 
         <!--broken-section-->
-        <section class="ttm-row broken-section ttm-bg ttm-bgimage-yes ttm-bgcolor-grey clearfix">
+        <section class="ttm-row broken-section bg-img5 ttm-bg ttm-bgimage-yes ttm-bgcolor-grey clearfix">
+            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
             <div class="container">
                 <!--row-->
                 <div class="row">
@@ -460,6 +462,255 @@
             </div>
         </section>
         <!--event-section end-->
+
+        <!--blog-section-->
+        <section class="ttm-row bolg-section clearfix">
+            <div class="container">
+                <!--row-->
+                <div class="row">
+                    <div class="col-lg-10 col-md-12">
+                        <!-- section-title -->
+                        <div class="section-title style2">
+                            <div class="title-header">
+                                <h5>Denise & Guy</h5>
+                                <h2 class="title">Galerie de Photos</h2>
+                            </div>
+                            <div class="title-desc">
+                                <p></p>
+                            </div>
+                        </div><!-- section-title end -->
+                    </div>
+                </div><!--row end-->
+                <!--row-->
+                <div class="row slick_slider slick-arrows-style1"
+                    data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":true, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":870,"settings":{"slidesToShow": 2}}, {"breakpoint":540,"settings":{"slidesToShow": 1}}]}'>
+
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid" src="{{ asset('front/images/blog/01.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-post end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/02.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-post end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/03.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-post end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/04.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/05.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/06.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid" src="{{ asset('front/images/blog/07.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-post end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/08.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-post end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/09.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-post end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/10.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/11.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+
+
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/13.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/14.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/15.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/16.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/17.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/18.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/19.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/20.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/21.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/22.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+                    <div class="ttm-box-col-wrapper col-lg-4">
+                        <!--featured-imagebox-blog-->
+                        <div class="featured-imagebox featured-imagebox-blog">
+                            <div class="featured-thumbnail">
+
+                                <img class="img-fluid" src="{{ asset('front/images/blog/23.png') }}" alt="image">
+                            </div>
+
+                        </div><!--featured-imagebox-blog end-->
+                    </div>
+
+                </div><!--row end-->
+            </div>
+        </section>
+        <!--blog-section end-->
 
     </div><!--site-main end-->
 @endsection

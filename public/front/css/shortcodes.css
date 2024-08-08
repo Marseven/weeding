@@ -238,6 +238,15 @@
     background-position: center bottom;
 }
 
+.ttm_single_image-wrapper:after {
+    left: auto;
+    top: auto;
+    right: 0;
+    bottom: -13px;
+    background: url(../images/annau.png) no-repeat;
+    height: 110px;
+    width: 110px;
+}
 
 /* ===============================================
     5.Col-Bg-Image
