@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="Mariage, Gabon" />
     <meta name="description" content="Site d'invitation de Mariage" />
-    <meta name="author" content="https://www.mebodorichard.com/" />
+    <meta name="author" content="Denise & Guy Massing" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ env('APP_NAME') }}</title>
