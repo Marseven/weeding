@@ -317,13 +317,13 @@
                                         <div class="col-lg-12">
                                             <label>
                                                 <span class="text-input"><input name="first_name" type="text"
-                                                        placeholder="Prénom" required="required"></span>
+                                                        placeholder="Prénom"></span>
                                             </label>
                                         </div>
                                         <div class="col-lg-12">
                                             <label>
                                                 <span class="text-input"><input name="email" type="email"
-                                                        placeholder="Email" required="required"></span>
+                                                        placeholder="Email"></span>
                                             </label>
                                         </div>
                                         <div class="col-lg-12">

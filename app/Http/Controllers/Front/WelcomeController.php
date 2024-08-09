@@ -39,10 +39,8 @@ class WelcomeController extends Controller
     public function store(Request $request)
     {
         $rules = [
-            'first_name' => ['required'],
             'last_name' => ['required'],
             'phone' => ['required'],
-            'email' => ['required'],
         ];
 
         $validator = Validator::make($request->all(), $rules);
