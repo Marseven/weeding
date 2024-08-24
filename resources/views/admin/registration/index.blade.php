@@ -99,9 +99,12 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @php
+                                    $i = 1;
+                                @endphp
                                 @foreach ($registrations as $registration)
                                     <tr>
-                                        <td>{{ $registration->id }}</td>
+                                        <td>{{ $i }}</td>
                                         <td>{{ $registration->attendee->last_name }}</td>
                                         <td>{{ $registration->attendee->first_name }}</td>
                                         <td>{{ $registration->attendee->email }}</td>
@@ -124,6 +127,9 @@
 
                                         </td>
                                     </tr>
+                                    @php
+                                        $i++;
+                                    @endphp
                                 @endforeach
                                 </tr>
                             </tbody>
